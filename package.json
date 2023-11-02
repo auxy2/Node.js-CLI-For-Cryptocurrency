@@ -1,0 +1,28 @@
+{
+  "name": "node.js-cli-for-cryptocurrency",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "./bin/coinbat.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auxy2/Node.js-CLI-For-Cryptocurrency.git"
+  },
+  "author": "Isihaq Abdullahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/auxy2/Node.js-CLI-For-Cryptocurrency/issues"
+  },
+  "homepage": "https://github.com/auxy2/Node.js-CLI-For-Cryptocurrency#readme",
+  "dependencies": {
+    "type": "module",
+    "axios": "^1.6.0",
+    "colors": "^1.4.0",
+    "commander": "^11.1.0",
+    "configstore": "^6.0.0",
+    "inquirer": "^9.2.11"
+  }
+}
