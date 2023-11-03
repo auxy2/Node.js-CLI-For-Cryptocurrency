@@ -1,6 +1,6 @@
-const color = require("colors");
-const KeyManeger = require("../lib/KeyManeger");
-const inquire = require("inquirer");
+import { color } from "colors";
+import { KeyManeger } from "../lib/KeyManeger";
+import { inquire } from "inquirer";
 
 const key = {
   async set() {
@@ -26,4 +26,4 @@ const key = {
   },
 };
 
-module.exports = key;
+export default key;

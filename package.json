@@ -4,6 +4,7 @@
   "description": "",
   "bin": "./bin/coinbat.js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +19,6 @@
   },
   "homepage": "https://github.com/auxy2/Node.js-CLI-For-Cryptocurrency#readme",
   "dependencies": {
-    "type": "module",
     "axios": "^1.6.0",
     "colors": "^1.4.0",
     "commander": "^11.1.0",
