@@ -15,10 +15,11 @@ import { readFile } from "fs/promises";
     program
       .version(pkg.version)
       .command("key", "Manage API Keys -- https://nomics.com")
+      .command("check", "Check Coin Price Info")
       .parse(process.argv);
 
     console.log("first coinbat");
   } catch (error) {
-    console.log("Error reading or parsing package.json:", error);
+    console.log("Error reading or parsing package.json:", error.mesage);
   }
 })();
