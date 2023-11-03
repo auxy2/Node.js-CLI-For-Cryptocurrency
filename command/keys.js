@@ -1,6 +1,6 @@
 import { color } from "colors";
-import { KeyManeger } from "../lib/KeyManeger";
-import { inquire } from "inquirer";
+import KeyManeger from "../lib/KeyManeger";
+import inquire from "inquirer";
 
 const key = {
   async set() {
