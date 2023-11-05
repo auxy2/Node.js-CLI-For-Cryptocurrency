@@ -7,9 +7,9 @@ program
   .option(
     "--coin <type>",
     "Add Specific Coin In CSV Format",
-    "bitcoin, ethereum, tether, ripple, tron"
+    "BTC,ETH,XRP,USDT,"
   )
-  .option("--cur <Currency>", "Change Currency", "USDT")
+  .option("--cur <Currency>", "Change Currency", "USD")
   .action((cmd) => check.price(cmd));
 
 program.parse(process.argv);

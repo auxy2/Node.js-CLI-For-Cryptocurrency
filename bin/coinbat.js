@@ -14,7 +14,7 @@ import { readFile } from "fs/promises";
 
     program
       .version(pkg.version)
-      .command("key", "Manage API Keys -- https://nomics.com")
+      .command("key", "Manage API Keys -- https://min-api.cryptocompare.com")
       .command("check", "Check Coin Price Info")
       .parse(process.argv);
 

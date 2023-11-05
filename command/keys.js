@@ -9,7 +9,7 @@ export async function set() {
     {
       type: "inpute",
       name: "key",
-      message: "Enter Api Key".green + "https://nomic.com",
+      message: "Enter Api Key".green + "  https://min-api.cryptocompare.com",
       validate: isRequired,
     },
   ]);
