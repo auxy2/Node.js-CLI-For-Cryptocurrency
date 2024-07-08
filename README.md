@@ -21,3 +21,27 @@ It fetches data from various APIs and presents it in a user-friendly manner, all
 - Node.js: Version 12.x or higher.
 - NPM: Version 6.x or higher.
 
+
+# Installation
+
+
+To install the CLI, ensure you have Node.js and NPM installed on your machine. Then, follow these steps:
+
+- Clone the repository: `git clone https://github.com/auxy2/Node.js-CLI-For-Cryptocurrency.git
+`
+- Navigate to the project directory: `cd Node.js-CLI-For-Cryptocurrency`
+- Install the dependencies: `npm install`
+- Install the CLI globally: `npm install -g .`
+- 
+
+
+
+
+
+
+
+
+
+
+
+
