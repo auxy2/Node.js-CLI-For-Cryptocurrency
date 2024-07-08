@@ -32,7 +32,15 @@ To install the CLI, ensure you have Node.js and NPM installed on your machine. T
 - Navigate to the project directory: `cd Node.js-CLI-For-Cryptocurrency`
 - Install the dependencies: `npm install`
 - Install the CLI globally: `npm install -g .`
+
+## Usage
+After installation, you can use the CLI with the command `crypto-cli`. Below are some examples of the commands you can use:
+
+- Fetch latest prices: `crypto-cli prices`
+- Fetch historical data: `crypto-cli history --currency BTC --period 7d`
+- Convert currency: `crypto-cli convert --amount 100 --from USD --to BTC`
 - 
+
 
 
 
