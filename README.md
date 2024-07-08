@@ -14,3 +14,10 @@ It fetches data from various APIs and presents it in a user-friendly manner, all
 - Period Selection: Allows users to select different time periods for historical data.
 - Table Pagination: Displays data in a paginated table format for easy reading.
 - Customizable Output: Users can customize the output to show specific data points.
+
+
+# Requirements
+
+- Node.js: Version 12.x or higher.
+- NPM: Version 6.x or higher.
+
